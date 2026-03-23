@@ -47,7 +47,7 @@ export const BottomNav = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="md:hidden fixed bottom-0 w-full bg-white dark:bg-emerald-950 border-t border-emerald-100 dark:border-emerald-900 z-50 px-6 py-3">
+    <nav className="md:hidden fixed bottom-0 w-full bg-white border-t border-emerald-100 z-50 px-6 py-3">
       <div className="flex justify-between items-center max-w-md mx-auto">
         <Link to="/" className={`flex flex-col items-center gap-1 ${isActive('/') ? 'text-emerald-600' : 'text-emerald-900/40'}`}>
           <Home className="w-6 h-6" />
