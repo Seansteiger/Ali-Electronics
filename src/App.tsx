@@ -7,7 +7,7 @@ import { CategoryPage } from './components/CategoryPage';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Ali-Electronics">
       <div className="min-h-screen flex flex-col">
         <TopNav />
         <main className="flex-grow pt-20">
